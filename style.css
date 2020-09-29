@@ -1,0 +1,97 @@
+body {
+ font-family: 'Work Sans', sans-serif;
+ background:#fbe3e8;
+}
+
+h1 {
+ font-family: 'Crimson Text', serif;
+}
+
+.nav {
+  background-color: #fff ;
+  overflow: hidden;
+}
+
+.nav a {
+  text-align: center;
+  float: left;
+  color: #5cbdb9;
+  padding: 15px 15px;
+  font-size: 18px;
+  text-decoration: none; 
+}
+
+.nav a:hover {
+  color: #000;
+  background-color: #fff;
+}
+
+.nav a.active {
+  color: #000;
+  background-color: #4CAF50;
+}
+
+#description {
+  text-align: center; 
+  font-color: #fff;
+  font-size:20px;
+  font-family: 'Crimson Text', serif;
+  width: 50%;
+  border: 15px #5cbdb9;
+  padding:5px;
+  margin:10px auto;
+  align-content: center; 
+}
+
+img {
+  max-width: 100%
+}
+
+#team{
+  border: 15px;
+  padding: 5px;
+  margin:10px auto;
+  align-content: left; 
+}
+
+#teampic {
+  position: relative;
+  top: -225px;
+  max-width: 20%;
+  border: 15px #5cbdb9;
+  padding:5px;
+  margin:5px auto;
+  align-content: right; 
+}
+
+.part {
+  float: left;
+  width: 50%;
+}
+
+.step:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#final{
+  max-width: 100%;
+  align-content: center; 
+}
+
+#footer {
+  text-align: center; 
+  font-color: #000;
+}
+
+@media only screen and (max-width: 1000px) {
+
+}
+
+@media only screen and (max-width: 600px) {
+  .part {
+      width: 100%;
+  }
+
+}
